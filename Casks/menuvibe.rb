@@ -10,7 +10,7 @@ cask "menuvibe" do
 
   # No auto-update yet (Sparkle is on the roadmap); Homebrew handles upgrades.
   auto_updates false
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MenuVibe.app"
 
